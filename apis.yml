@@ -1,8 +1,28 @@
 aid: sondermind
 name: Sondermind
-description: Sondermind is a company surfaced as a portfolio company of general-catalyst and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  SonderMind is a Denver-based mental health company operating a measurement-based
+  behavioral healthcare platform that connects people to licensed therapists and
+  psychiatrists who have availability, accept insurance, and specialize in their
+  needs. It offers virtual and in-person therapy and psychiatry across all 50 U.S.
+  states, along with enterprise offerings for health systems, physician practices,
+  payers, and Veterans. SonderMind is a General Catalyst portfolio company. As of
+  this profile it publishes a consumer and clinician web platform (with a
+  member/provider sign-in at api.sondermind.com) but no public developer API,
+  developer portal, SDKs, or API documentation; this repository tracks SonderMind's
+  public web, content, and identity surface for the API Evangelist network.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://sm-cms-artifacts-prod.s3.amazonaws.com/SM_Open_Graph_0690ed4efa.png
 url: https://raw.githubusercontent.com/api-evangelist/sondermind/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +32,42 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Mental Health
+- Healthcare
+- Telehealth
+- Therapy
+- Psychiatry
+- Behavioral Health
+- Digital Health
+- HIPAA
 apis: []
+common:
+- type: DomainSecurity
+  url: security/sondermind-domain-security.yml
+- type: Website
+  url: https://www.sondermind.com/
+- type: Login
+  url: https://api.sondermind.com
+- type: Support
+  url: https://www.sondermind.com/contact-us/
+- type: Blog
+  url: https://www.sondermind.com/resources/articles-and-content/
+- type: PrivacyPolicy
+  url: https://www.sondermind.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.sondermind.com/terms-of-service/
+- type: LLMsTxt
+  url: llms/sondermind-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
